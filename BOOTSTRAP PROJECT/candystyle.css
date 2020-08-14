@@ -1,0 +1,16 @@
+body{
+    background: black;
+}
+.navbar-dark .navbar-brand{
+    color: #fd7e14;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+#mainNav .nav-link:hover{
+    color: #fd7e14;
+}
+#mainNav{
+    font-weight: 200;
+    font-size: 1.5rem;
+}

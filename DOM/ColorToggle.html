@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Toggle</title>
+</head>
+<body>
+
+        <button>Click me!</button>
+
+</body>
+
+    <script>
+        var body = document.querySelector("body");
+        var button = document.querySelector("button");
+        isYellow = false;
+        button.addEventListener("click",function () {
+            if(isYellow){
+                body.style.backgroundColor = "White";
+            }
+            else {
+                body.style.backgroundColor = "Yellow";
+            }
+            isYellow = !isYellow;
+        });
+    </script>
+</html>
